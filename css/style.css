@@ -76,6 +76,7 @@ header nav li:last-of-type a{
     line-height: 20px;
     letter-spacing: 2px;
     text-transform: uppercase;
+    margin-bottom: 1px;
 }
 .main_banner h1{
     color: #FFF;
@@ -85,10 +86,139 @@ header nav li:last-of-type a{
     font-style: normal;
     font-weight: 400;
     line-height: 59.4px;
+    margin-bottom: 18px;
 }
 .main_banner p{
     color: #C0C0C0;
     text-align: center;
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+}
+.sunset{
+    background-image: url("../images/sunset.jpg");
+    background-size: cover;
+    min-height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+.sunset .container{
+    max-width: 298px;
+    text-align: left;
+    margin-right: 62px;
+}
+.sunset h3{
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+.sunset p{
+    color: #C0C0C0;
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+}
+.monstera{
+    background-image: url("../images/monstera.jpg");
+    background-size: cover;
+    min-height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+.monstera .container{
+    max-width: 273px;
+    text-align: left;
+    margin-right: 87px;
+}
+.monstera h3{
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+.monstera p{
+    color: #C0C0C0;
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+}
+.past_clients{
+    background-color: #000;
+    padding-top: 113px;
+    padding-bottom: 100px;
+}
+.past_clients .container{
+    max-width: 1200px;
+    text-align: center;
+}
+.past_clients h3{
+    color: #FFF;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 42px;
+    margin-bottom: 15px;
+}
+.past_clients h4{
+    color: #C0C0C0;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    margin-bottom: 42px;
+}
+.past_clients .link{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 46px;
+    padding-right: 46px;
+}
+.star_fall{
+    background-image: url("../images/star_fall.jpg");
+    background-size: cover;
+    min-height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+.star_fall .container{
+    max-width: 254px;
+    text-align: left;
+    margin-right: 119px;
+}
+.star_fall h3{
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+.star_fall p{
+    color: #C0C0C0;
     font-family: Poppins;
     font-size: 14px;
     font-style: normal;
