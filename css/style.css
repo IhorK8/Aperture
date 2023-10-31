@@ -1,3 +1,15 @@
+@font-face {
+    font-family: 'poppinsregular';
+    src: url('../fonts/poppins-regular-webfont.eot');
+    src: url('../fonts/poppins-regular-webfont.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/poppins-regular-webfont.woff2') format('woff2'),
+    url('../fonts/poppins-regular-webfont.woff') format('woff'),
+    url('../fonts/poppins-regular-webfont.ttf') format('truetype'),
+    url('../fonts/poppins-regular-webfont.svg#poppinsregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
 * {
     padding: 0;
     margin: 0;
@@ -35,7 +47,7 @@ header nav li:last-of-type{
 header nav li a{
     text-decoration: none;
     color: #FFF;
-    font-family: Poppins;
+    font-family: 'poppinsregular';
     font-size: 15px;
     font-style: normal;
     font-weight: 400;
@@ -60,6 +72,7 @@ header nav li:last-of-type a{
     align-items: end;
     justify-content: center;
     padding-bottom: 71px;
+    position: relative;
 }
 .main_banner .container{
     max-width: 580px;
@@ -69,7 +82,7 @@ header nav li:last-of-type a{
 .main_banner h3{
     color: #C0C0C0;
     text-align: center;
-    font-family: Poppins;
+    font-family: 'poppinsregular';
     font-size: 14px;
     font-style: normal;
     font-weight: 400;
@@ -81,7 +94,7 @@ header nav li:last-of-type a{
 .main_banner h1{
     color: #FFF;
     text-align: center;
-    font-family: Poppins;
+    font-family: 'poppinsregular';
     font-size: 54px;
     font-style: normal;
     font-weight: 400;
@@ -91,11 +104,50 @@ header nav li:last-of-type a{
 .main_banner p{
     color: #C0C0C0;
     text-align: center;
-    font-family: Poppins;
+    font-family: 'poppinsregular';
     font-size: 14px;
     font-style: normal;
     font-weight: 400;
     line-height: 20px;
+}
+.icon{
+   position: absolute;
+    right: 40px;
+    bottom: 41px;
+    display: flex;
+
+}
+.icon li{
+    color: #FFF;
+    font-family: 'poppinsregular';
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 12px;
+    margin-left: 16px;
+    list-style: none;
+}
+.icon li:before{
+    display: inline-block;
+    content: "";
+    background-image: url("../images/icon_1.svg");
+    width: 16px;
+    height: 16px;
+    margin-right: 6px;
+    margin-bottom: -6px;
+}
+.icon li:nth-child(2):before{
+    background-image: url("../images/icon_2.svg");
+}
+.icon li:nth-child(3):before{
+    background-image: url("../images/icon_3.svg");
+    width: 32px;
+    margin-right: 7px;
+}
+.icon li:last-child:before{
+    background-image: url("../images/icon_4.svg");
+    width: 10px;
+    margin-right: 5px;
 }
 .sunset{
     background-image: url("../images/sunset.jpg");
@@ -112,7 +164,7 @@ header nav li:last-of-type a{
 }
 .sunset h3{
     color: #FFF;
-    font-family: Poppins;
+    font-family: 'poppinsregular';
     font-size: 14px;
     font-style: normal;
     font-weight: 400;
@@ -122,7 +174,7 @@ header nav li:last-of-type a{
 }
 .sunset p{
     color: #C0C0C0;
-    font-family: Poppins;
+    font-family: 'poppinsregular';
     font-size: 14px;
     font-style: normal;
     font-weight: 400;
@@ -143,7 +195,7 @@ header nav li:last-of-type a{
 }
 .monstera h3{
     color: #FFF;
-    font-family: Poppins;
+    font-family: 'poppinsregular';
     font-size: 14px;
     font-style: normal;
     font-weight: 400;
@@ -153,7 +205,7 @@ header nav li:last-of-type a{
 }
 .monstera p{
     color: #C0C0C0;
-    font-family: Poppins;
+    font-family: 'poppinsregular';
     font-size: 14px;
     font-style: normal;
     font-weight: 400;
@@ -171,7 +223,7 @@ header nav li:last-of-type a{
 .past_clients h3{
     color: #FFF;
     text-align: center;
-    font-family: Poppins;
+    font-family: 'poppinsregular';
     font-size: 40px;
     font-style: normal;
     font-weight: 400;
@@ -181,7 +233,7 @@ header nav li:last-of-type a{
 .past_clients h4{
     color: #C0C0C0;
     text-align: center;
-    font-family: Poppins;
+    font-family: 'poppinsregular';
     font-size: 24px;
     font-style: normal;
     font-weight: 400;
@@ -209,7 +261,7 @@ header nav li:last-of-type a{
 }
 .star_fall h3{
     color: #FFF;
-    font-family: Poppins;
+    font-family: 'poppinsregular';
     font-size: 14px;
     font-style: normal;
     font-weight: 400;
@@ -219,7 +271,7 @@ header nav li:last-of-type a{
 }
 .star_fall p{
     color: #C0C0C0;
-    font-family: Poppins;
+    font-family: 'poppinsregular';
     font-size: 14px;
     font-style: normal;
     font-weight: 400;
