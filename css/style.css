@@ -156,6 +156,7 @@ header nav li:last-of-type a{
     display: flex;
     align-items: center;
     justify-content: end;
+    position: relative;
 }
 .sunset .container{
     max-width: 298px;
@@ -187,6 +188,7 @@ header nav li:last-of-type a{
     display: flex;
     align-items: center;
     justify-content: end;
+    position: relative;
 }
 .monstera .container{
     max-width: 273px;
@@ -253,6 +255,7 @@ header nav li:last-of-type a{
     display: flex;
     align-items: center;
     justify-content: end;
+    position: relative;
 }
 .star_fall .container{
     max-width: 254px;
