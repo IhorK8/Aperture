@@ -119,6 +119,7 @@ header nav li:last-of-type a{
     right: 40px;
     bottom: 41px;
     display: flex;
+    z-index: 3;
 
 }
 .icon li{
@@ -155,6 +156,27 @@ header nav li:last-of-type a{
 }
 .what_we_do{
     background-color: #000;
+    padding: 100px 16px;
+}
+.what_we_do h3{
+    color: #FFF;
+    text-align: center;
+    font-family: 'poppinsregular';
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 42px;
+    margin-bottom: 15px;
+}
+.what_we_do h4{
+    color: #C0C0C0;
+    text-align: center;
+    font-family: 'poppinsregular';
+    font-size: 23px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    margin-bottom: 40px;
 }
 .what_we_do .d_flex{
     display: flex;
@@ -164,10 +186,61 @@ header nav li:last-of-type a{
 .what_we_do .d_flex article{
     margin-bottom: 16px;
     max-width: 576px;
+    position: relative;
 }
 .what_we_do .d_flex article img{
     width: 100%;
     display: block;
+}
+.what_we_do .photography_text{
+    position: absolute;
+    left: 30px;
+    bottom: 30px;
+}
+.what_we_do .photography_text h3{
+    color: #FFF;
+    font-family: 'poppinsregular';
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    text-align: left;
+    margin-bottom: 10px;
+}
+.what_we_do .photography_text p{
+    color: #C0C0C0;
+    font-family: 'poppinsregular';
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    max-width: 510px;
+    margin-bottom: 17px;
+}
+.what_we_do .photography_text a{
+    border-radius: 14px;
+    background: #FFF;
+    padding: 9px 10px;
+    text-decoration: none;
+    display: inline-flex;
+    align-items: center;
+    color: #000;
+    font-family: 'poppinsregular';
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0.4px;
+}
+.what_we_do .photography_text a:before{
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    content: "";
+    background-color: black;
+    margin-right: 6px;
 }
 .sunset{
     background-image: url("../images/sunset.jpg");
@@ -225,6 +298,58 @@ header nav li:last-of-type a{
 }
 .gear_cage .container article{
     max-width: 514px;
+}
+.gear_cage h4{
+    color: #C0C0C0;
+    font-family: 'poppinsregular';
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin-bottom: 6px;
+}
+.gear_cage h3{
+    color: #FFF;
+    font-family: 'poppinsregular';
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+    margin-bottom: 14px;
+}
+.gear_cage p{
+    color: #FFF;
+    font-family: 'poppinsregular';
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    margin-bottom: 20px;
+}
+.gear_cage a{
+    border-radius: 14px;
+    background: #FFF;
+    padding: 9px 10px;
+    color: #000;
+    font-family: 'poppinsregular';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0.4px;
+    text-decoration: none;
+    display: inline-flex;
+    align-items: center;
+}
+.gear_cage a:before{
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    content: "";
+    background-color: black;
+    margin-right: 6px;
 }
 .monstera{
     background-image: url("../images/monstera.jpg");
