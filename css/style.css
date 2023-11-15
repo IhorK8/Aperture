@@ -415,6 +415,7 @@ header nav li:last-of-type a{
 .past_clients .link{
     display: flex;
     justify-content: space-between;
+    align-items: center;
     padding-left: 46px;
     padding-right: 46px;
 }
