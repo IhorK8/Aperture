@@ -419,6 +419,17 @@ header nav li:last-of-type a{
     padding-left: 46px;
     padding-right: 46px;
 }
+.link a{
+    max-width: 128px;
+    display: inline-block;
+}
+.link .owl-stage{
+    display: flex;
+    align-items: center;
+}
+.link.owl-carousel .owl-item{
+    text-align: center;
+}
 .star_fall{
     background-image: url("../images/star_fall.jpg");
     background-size: cover;
