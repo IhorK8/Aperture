@@ -413,7 +413,7 @@ header nav li:last-of-type a{
     margin-bottom: 42px;
 }
 .past_clients .link{
-    display: flex;
+    display: block;
     justify-content: space-between;
     align-items: center;
     padding-left: 46px;
@@ -429,6 +429,47 @@ header nav li:last-of-type a{
 }
 .link.owl-carousel .owl-item{
     text-align: center;
+}
+.link.owl-carousel .owl-nav .owl-prev{
+    background-color: #FFFFFF;
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    display: block;
+    position: absolute;
+    left: -10px;
+    top: 17px;
+}
+.link.owl-carousel .owl-nav .owl-next{
+    background-color: #FFFFFF;
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    display: block;
+    position: absolute;
+    right: -10px;
+    top: 17px;
+}
+.link.owl-carousel .owl-nav .owl-next:after{
+    display: inline-block;
+    content: ">";
+    font-size: 20px;
+}
+.link.owl-carousel .owl-dots .owl-dot span{
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: #FFFFFF;
+    margin: 10px;
+    margin-top: 40px;
+}
+.link.owl-carousel .owl-dots .owl-dot.active span{
+    background-color: green;
+}
+.link.owl-carousel .owl-dots{
+    display: flex;
+    justify-content: center;
 }
 .star_fall{
     background-image: url("../images/star_fall.jpg");
