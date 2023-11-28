@@ -34,6 +34,10 @@ header .container{
     padding-left: 32px;
     padding-right: 20px;
 }
+header .logo{
+    position: relative;
+    z-index: 100;
+}
 header nav ul{
     display: flex;
     align-items: center;
