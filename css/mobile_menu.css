@@ -51,7 +51,7 @@ body{
 .nav-but-wrap{
     position: relative;
     z-index: 100;
-    display: inline-block;
+    display: none;
     float: right;
     padding-left: 15px;
     padding-top: 9px;

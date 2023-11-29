@@ -469,7 +469,7 @@ header nav li:last-of-type a{
     margin-top: 40px;
 }
 .link.owl-carousel .owl-dots .owl-dot.active span{
-    background-color: green;
+    background-color: #01E0F3;
 }
 .link.owl-carousel .owl-dots{
     display: flex;
